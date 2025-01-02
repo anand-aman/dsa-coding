@@ -24,7 +24,6 @@ public class DijkstraAlgo {
         }
 
         //Dijsktra Algorithm implementation
-
         int[] weightFromSrc = new int[n];
         Set<Integer> unvisited = new HashSet<>();
 
@@ -55,9 +54,7 @@ public class DijkstraAlgo {
         for(int i=0; i<n; i++){
             System.out.println(i + " " + weightFromSrc[i]);
         }
-
-
-
+        
     }
 
     private static int findMinVertex(Set<Integer> unvisited, int[] weightFromSrc){

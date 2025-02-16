@@ -1,4 +1,4 @@
-package Graph;
+package Graph.CodingNinjas;
 
 import java.util.*;
 

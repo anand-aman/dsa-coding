@@ -4,6 +4,10 @@ import java.util.*;
 
 public class KahnAlgorithm {
 
+    /// This algorithm can be used to detect cycle in Directed Graphs.
+    /// To Detect cycle, we get the sorted array.
+    /// If the length of sorted array matches the number of nodes, the graph is Acyclic, otherwise Cyclic.
+
     public static void main(String[] args) {
         // INPUT
         Scanner scanner = new Scanner(System.in);
